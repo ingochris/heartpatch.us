@@ -42,3 +42,18 @@ Use the included Ubuntu 13.04 server virtual machine or docker containers to sim
 Nmap script can be used to scan for Heartbleed.
 
 Metasploit MSFConsole has modules for exploitation.
+
+## Attributes
+Metasploit Heartbleed Exploit Auxillary Module
+
+Nmap Project 
+
+Nmap ssl-heartbleed script: https://nmap.org/nsedoc/scripts/ssl-heartbleed.html
+
+FiloSottile's Heartbleed Scanner written in the Go language: https://github.com/FiloSottile/Heartbleed
+
+Official Red Hat offline scanner written in the Python language by Katie Stafford: https://web.archive.org/web/20140412152427/https://access.redhat.com/labs/heartbleed/heartbleed-poc.py
+
+The logo of the heartbleed bug (CC0 license): https://en.wikipedia.org/wiki/Heartbleed#/media/File:Heartbleed.svg
+
+The Bandaid Cross Asset: https://wikiclipart.com/bandaid-clipart_24416/
