@@ -1,6 +1,6 @@
 ![Logo](https://i.imgur.com/hISnxYT.png)
 
-# heartpatch.us (Under Construction)
+# heartpatch.us (Under Construction) ![beating](https://i.imgur.com/IvHpVJJ.gif)
 _Patching heartbleed openssl vulnerabilities on servers across the world wide web._
 
 ## Inspiration
@@ -27,7 +27,6 @@ For such a critical bug that was unvealed years ago in 2014, there are still far
 |Japan|2,368|
 |United Kingdom|2,176|
 
-![beating](https://i.imgur.com/IvHpVJJ.gif)
 
 ## What it does
 Heartpatch.us is a toolkit that includes modules to both scan and patch Heartbleed vulnerabilities.
