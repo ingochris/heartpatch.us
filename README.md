@@ -1,7 +1,7 @@
-# heartpatch.us
+#heartpatch.us
+_Patching heartbleed openssl vulnerabilities on servers across the world wide web._
 
-Heartbleed scan and patch tools
-
+## Inspiration
 >Heartbleed is a security bug in the OpenSSL cryptography library, which is a widely used implementation of the Transport Layer Security (TLS) protocol. It was introduced into the software in 2012 and publicly disclosed in April 2014. Heartbleed may be exploited regardless of whether the vulnerable OpenSSL instance is running as a TLS server or client. It results from improper input validation (due to a missing bounds check) in the implementation of the TLS heartbeat extension. Thus, the bug's name derives from heartbeat. The vulnerability is classified as a buffer over-read, a situation where more data can be read than should be allowed.
 
 >The Electronic Frontier Foundation, Ars Technica, and Bruce Schneier all deemed the Heartbleed bug "catastrophic". Forbes cybersecurity columnist Joseph Steinberg wrote:
@@ -24,3 +24,18 @@ For such a critical bug that was unvealed years ago in 2014, there are still far
 |Taiwan|2,639|
 |Japan|2,368|
 |United Kingdom|2,176|
+
+## What it does
+Heartpatch.us is a toolkit that includes modules to both scan and patch Heartbleed vulnerabilities.
+
+## How it was built
+From the main site, users are able to scan target servers to scan for Heartbleed vulnerability.
+
+For servers not on the internet, users may use ssltest.sh to scan. From the report, unpatched servers are then prompted to run the patch script.
+
+## Testing Instructions
+Use the included Ubuntu 13.04 server virtual machine or docker containers to simulate Heartbleed vulnerable servers.
+
+Nmap script can be used to scan for Heartbleed.
+
+Metasploit MSFConsole has modules for exploitation.
